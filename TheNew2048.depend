@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1417842576 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\main.cpp
+	"Block.h"
+	"Menu.h"
+	"NumberData.h"
+
+1417775653 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\block.h
+
+1417753537 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\menu.h
+
+1417753537 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\numberdata.h
+	"Block.h"
+
+1417793235 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\block.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	"Block.h"
+	"StringNumber.h"
+	"HighScore.h"
+	"TempMap.h"
+	"RandomNumber.h"
+	"Direction.h"
+
+1417753438 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\stringnumber.h
+	<string>
+
+1417753537 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\highscore.h
+	"Block.h"
+
+1417753459 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\tempmap.h
+
+1417753537 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\randomnumber.h
+
+1417753537 c:\users\qiqizuo\desktop\新建文件夹\thenew2048\include\direction.h
+
+1417753537 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\direction.cpp
+	<conio.h>
+	"Direction.h"
+
+1417753537 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\highscore.cpp
+	<fstream>
+	"HighScore.h"
+
+1417775781 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\numberdata.cpp
+	<fstream>
+	"NumberData.h"
+
+1417753537 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\randomnumber.cpp
+	<ctime>
+	<cstdlib>
+	"RandomNumber.h"
+
+1417753537 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\stringnumber.cpp
+	"StringNumber.h"
+
+1417753537 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\tempmap.cpp
+	"TempMap.h"
+
+1417775074 source:c:\users\qiqizuo\desktop\新建文件夹\thenew2048\src\menu.cpp
+	<windows.h>
+	<iostream>
+	"Menu.h"
+	"Direction.h"
+

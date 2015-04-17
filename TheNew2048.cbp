@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TheNew2048" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TheNew2048" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TheNew2048" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Block.h" />
+		<Unit filename="include/Direction.h" />
+		<Unit filename="include/HighScore.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/NumberData.h" />
+		<Unit filename="include/RandomNumber.h" />
+		<Unit filename="include/StringNumber.h" />
+		<Unit filename="include/TempMap.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Block.cpp" />
+		<Unit filename="src/Direction.cpp" />
+		<Unit filename="src/HighScore.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/NumberData.cpp" />
+		<Unit filename="src/RandomNumber.cpp" />
+		<Unit filename="src/StringNumber.cpp" />
+		<Unit filename="src/TempMap.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
